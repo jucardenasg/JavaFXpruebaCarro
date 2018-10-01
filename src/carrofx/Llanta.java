@@ -9,13 +9,13 @@ package carrofx;
  *
  * @author Estudiante
  */
-public class CarroFX {
+public class Llanta {
+    private int x;
+    private int y;
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public Llanta(int x, int y) {
+        this.x = x;
+        this.y = y;
     }
     
 }
